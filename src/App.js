@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Componens/Header/Header"
+import Hero from "./Componens/Hero/Hero"
+import About from "./Componens/About/About"
+import Projects from "./Componens/Projects/Projects"
+import Skills from "./Componens/Skills/Skills"
+import Footer from "./Componens/Footer/Footer"
+import Main from "./Styles/Main.scss"
+import {Container} from "react-bootstrap"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+              <Header/>
+              <Hero/>
+              <About/>
+              <Projects/>
+              <Skills/>
+              <Footer/>
+     </Container>
+
     </div>
   );
 }
