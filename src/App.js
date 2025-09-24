@@ -19,11 +19,11 @@ function App() {
 
 
           <Col sm="9">
-              <Hero/>
+              {/* <Hero/> */}
               <About/>
-              <Projects/>
+              {/* <Projects/>
               <Skills/>
-              <Footer/>
+              <Footer/> */}
           </Col>
         </Row>
              
