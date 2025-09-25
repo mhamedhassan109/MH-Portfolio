@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import user from "../../Assets/Profile.jpg"
-
+import {motion} from "framer-motion"
 function About() {
   return (
     <div className='About'>
@@ -10,14 +10,26 @@ function About() {
         lorem 
 
         <Row>
-          <Col sm="12" lg="4">
+           <Col sm="12" lg="4">
+          <motion.div 
+          initial={{opacity:0,x:-100}}
+          animate={{opacity:1,x:0}}
+          transition={{duration:2}}
+          
+          >
 
           <div className="user">
             <img src={user} alt='user'/>
           </div>
-          
+            </motion.div>
           </Col>
+         
           <Col sm="12" lg="8">
+          <motion.div 
+          initial={{opacity:0,x:100}}
+          animate={{opacity:1,x:0}}
+          transition={{duration:2}}
+          >
             <div className="text">
               <h2>front end Developer.</h2>
               <p>I am a junior front-end developer with a strong foundation in HTML, CSS, JavaScript, Bootstrap, Sass, and React. Currently learning Next.js and 
@@ -47,6 +59,7 @@ function About() {
                     professional team where I can grow and contribute my skills to real-world projects</p>
                  </div>
             </div>
+            </motion.div>
           </Col>
         </Row>
 

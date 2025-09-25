@@ -5,6 +5,7 @@ import Projects from "./Componens/Projects/Projects"
 import Skills from "./Componens/Skills/Skills"
 import Footer from "./Componens/Footer/Footer"
 import Main from "./Styles/Main.scss"
+import Resume from "./Componens/Resume/Resume"
 import {Col, Container, Row} from "react-bootstrap"
 
 function App() {
@@ -14,16 +15,20 @@ function App() {
 
         <Row>
           <Col sm="3">
-           <SideBar/>
+        
+             <SideBar/>
+          
+         
            </Col>
 
 
           <Col sm="9">
-              {/* <Hero/> */}
+              <Hero/>
               <About/>
-              {/* <Projects/>
+              <Resume/>
+              <Projects/>
               <Skills/>
-              <Footer/> */}
+              <Footer/>
           </Col>
         </Row>
              
