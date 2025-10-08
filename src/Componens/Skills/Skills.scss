@@ -1,0 +1,69 @@
+.Skills {
+
+    padding: 30px;
+
+    .contentSkills{
+
+        h2{
+            margin: 40px 0;
+            font-size: 70px;
+        }
+        p{
+            margin: 40px 0;
+            color: $desc-color;
+        }
+    }
+
+    .SkillsTool{
+        h3 {
+            margin: 30px 0;
+        }
+
+        h6 {
+            color: $desc-color;
+        }
+
+        .holder{
+            width: 300px;
+            height: 10px;
+            background-color: $desc-color;
+            border-radius: 10px;
+            margin: 20px 0;
+            position: relative;
+
+            span {
+               background-color: $icon-color;
+                
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+
+                &.one {
+                     width: 90%;
+                }
+                &.two{
+                    width: 85%;
+                }
+                &.three {
+                    width: 75%;
+                }
+                &.four{
+                    width: 80%;
+                }
+                &.five{
+                    width: 90%;
+                }
+                &.six{
+                    width: 70%;
+                }
+                &.seven {
+                    width: 90%;
+                }
+                &.eight {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

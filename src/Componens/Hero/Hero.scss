@@ -1,0 +1,44 @@
+.Hero {
+    background-image: url("../../Assets/hero.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -270px 0px;
+
+    .text {
+        padding: 40px;
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        
+        h1 {
+            text-transform: capitalize;
+        }
+        .myTyped {
+            font-size: 40px;
+            color: $icon-color;
+        }
+    }
+}
+
+@media (max-width:1110px) {
+.Hero{
+    height: 60vh;
+    background-position: center center;
+
+    .text {
+        position:relative;
+       
+        padding: 10px;
+
+        h1 {
+            margin-bottom: 20px;
+            margin-top: 70px;
+        }
+        .myTyped {
+            font-size: 20px;
+        }
+        
+    }
+}
+}

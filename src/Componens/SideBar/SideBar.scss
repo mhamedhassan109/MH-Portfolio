@@ -17,7 +17,7 @@
         width: 150px;
         height: 150px;
         margin: 40px auto;
-        border: 5px solid wheat;
+        border: 3px solid $icon-color;
         background-image: url("../../Assets/Profile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -80,4 +80,12 @@
         }
     }
     
+}
+
+
+@media (max-width:1110px) {
+    .SideBar{
+        position: relative;
+        width: 100%;
+    }
 }

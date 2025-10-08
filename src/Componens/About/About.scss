@@ -8,7 +8,7 @@
              
 
         img {
-            height: 600px;
+            width: 600px;
             height: 600px;
             border-radius: 20px;
           
@@ -66,3 +66,30 @@
     }
 
  }
+
+
+ 
+@media (max-width:1110px) {
+    .About{
+       .user{
+           
+        img {
+            width:  500px;
+            height: 500px;
+   
+        }
+      
+    }
+
+     .text{
+         
+
+        .content{
+           display: block;
+            margin-bottom: 40px;
+           
+        }
+
+    }
+    }
+}

@@ -2,19 +2,21 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import user from "../../Assets/Profile.jpg"
 import {motion} from "framer-motion"
-function About() {
+import Heading from '../Heading/Heading'
+function About({AboutRef}) {
   return (
-    <div className='About'>
+    <div className='About' ref={AboutRef} >
 
-        heading
-        lorem 
+        <Heading text="About"/>
 
         <Row>
            <Col sm="12" lg="4">
           <motion.div 
           initial={{opacity:0,x:-100}}
-          animate={{opacity:1,x:0}}
+          whileInView={{opacity:1,x:0}}
           transition={{duration:2}}
+          viewport={{once:true}}
+          
           
           >
 
@@ -27,8 +29,9 @@ function About() {
           <Col sm="12" lg="8">
           <motion.div 
           initial={{opacity:0,x:100}}
-          animate={{opacity:1,x:0}}
+          whileInView={{opacity:1,x:0}}
           transition={{duration:2}}
+           viewport={{once:true}}
           >
             <div className="text">
               <h2>front end Developer.</h2>

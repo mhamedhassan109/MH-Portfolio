@@ -1,0 +1,82 @@
+.Cart {
+    
+          padding: 10px;
+         transition: 1s;
+         margin-bottom: 50px;
+        position: relative;
+        overflow: hidden;
+
+    .head{
+      
+
+        img {
+             border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+
+       
+    }
+
+    .foot{
+
+        @include flex-box;
+        background-color: $main-color;
+        padding: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      
+
+        .text{
+            color: $text-color;
+            h5{
+                letter-spacing: 2px;
+                margin: 10px 0;
+            }
+            p{
+                color: $desc-color;
+            }
+            h6{
+                letter-spacing: 5px;
+                color: $icon-color;
+            }
+        }
+
+        .icons{
+            position: absolute;
+            left: 50%;
+            top: -50px;
+            transform: translate(-50%,-50%);
+            transition: 1s;
+              @include flex-box;
+           
+            i {
+                font-size: 20px;
+                margin-right: 10px;
+                color: $text-color;
+                    width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  background-color: $main-color;
+                  color: $icon-color;
+              text-decoration: none;
+              @include flex-box;
+              justify-content: center;
+
+              &:hover {
+                background-color: $icon-color;
+                color: $main-color;
+              }
+            }
+        }
+    }
+
+     &:hover {
+
+        transform: scale(1.1);
+      
+       
+     }
+     &:hover .icons {
+        top: 50%;
+     }
+}

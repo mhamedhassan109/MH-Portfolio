@@ -1,0 +1,19 @@
+.Footer{
+    background-color: $main-color;
+    color: $icon-color;
+    left: 110px;
+    position: relative;
+    line-height: 2;
+    padding-top: 30px;
+    padding: 20px;
+   text-align: center;
+}
+
+@media (max-width:1110px) {
+  .Footer {
+    left: 0;
+   font-size: 14px;
+    bottom: 70px;
+    margin-bottom: -70px;
+  }
+}

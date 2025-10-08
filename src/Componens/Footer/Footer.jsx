@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='Footer'>
+     © 2025 Mohamed Hassan | Designed & Developed by Me.
+    </div>
   )
 }
 

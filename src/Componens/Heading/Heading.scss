@@ -1,0 +1,27 @@
+.Heading {
+    margin-top: 40px;
+   
+
+    h2 {
+        margin-bottom: 30px;
+         position: relative;
+
+
+        &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        width: 50px;
+        height: 3px;
+        background-color: $icon-color;
+    }
+
+    }
+
+    p {
+        margin-bottom: 50px;
+        color: $desc-color;
+    }
+ 
+}
