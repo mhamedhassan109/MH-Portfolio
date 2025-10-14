@@ -4,7 +4,8 @@ import img3 from "./Assets/hospital.png"
 import img4 from "./Assets/projectSmall1.jpeg"
 import img5 from "./Assets/smallProject2.png"
 import img6 from "./Assets/to-do-list.png"
-
+import img7 from "./Assets/person.jpeg"
+ 
 
 
 export const projects = [
@@ -14,4 +15,5 @@ export const projects = [
     {id:Date.now(),name:"filter app",desc:"A clean UI to explore products",catogry:"Healthcare",img:img4,url:"https://github.com/mhamedhassan109/mini-filter-project",netlify:""},
     {id:Date.now(),name:"prodect deatils app",desc:"A simple React application ",catogry:"Business",img:img5,url:"https://github.com/mhamedhassan109/product-details-app",netlify:"https://product-details-app.netlify.app/"},
     {id:Date.now(),name:"to do list app",desc:"A simple React application ",catogry:"E-commerce",img:img6,url:"https://github.com/mhamedhassan109/to-do-list-reminder",netlify:"https://todo-reminder-mohamed.netlify.app/"},
+    {id:Date.now(),name:"Personal Portfolio",desc:"A responsive personal portfolio website built with React and Sass, showcasing my projects, skills, and contact information. ",catogry:"Personal",img:img7,url:"https://github.com/mhamedhassan109/MH-Portfolio.git",netlify:"https://mohassanportfolio.netlify.app/"},
 ]
