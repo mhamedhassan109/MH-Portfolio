@@ -13,7 +13,7 @@ function About({AboutRef}) {
            <Col sm="12" lg="4">
           <motion.div 
           initial={{opacity:0,x:-100}}
-          whileInView={{opacity:1,x:0}}
+          whileInView={{opacity:1,x:0}} 
           transition={{duration:2}}
           viewport={{once:true}}
           
@@ -21,7 +21,7 @@ function About({AboutRef}) {
           >
 
           <div className="user">
-            <img src={user} alt='user'/>
+           
           </div>
             </motion.div>
           </Col>

@@ -5,6 +5,8 @@ import img4 from "./Assets/projectSmall1.jpeg"
 import img5 from "./Assets/smallProject2.png"
 import img6 from "./Assets/to-do-list.png"
 import img7 from "./Assets/person.jpeg"
+import img8 from "./Assets/cafe.jpeg"
+import img9 from "./Assets/smart.jpeg"
  
 
 
@@ -16,4 +18,6 @@ export const projects = [
     {id:Date.now(),name:"prodect deatils app",desc:"A simple React application ",catogry:"Business",img:img5,url:"https://github.com/mhamedhassan109/product-details-app",netlify:"https://product-details-app.netlify.app/"},
     {id:Date.now(),name:"to do list app",desc:"A simple React application ",catogry:"E-commerce",img:img6,url:"https://github.com/mhamedhassan109/to-do-list-reminder",netlify:"https://todo-reminder-mohamed.netlify.app/"},
     {id:Date.now(),name:"Personal Portfolio",desc:"A responsive personal portfolio website built with React and Sass, showcasing my projects, skills, and contact information. ",catogry:"Personal",img:img7,url:"https://github.com/mhamedhassan109/MH-Portfolio.git",netlify:"https://mohassanportfolio.netlify.app/"},
+    {id:Date.now(),name:"cafe app",desc:"A simple next application  ",catogry:"Business",img:img8,url:"https://github.com/mhamedhassan109/Caffe-website.git",netlify:"https://github.com/mhamedhassan109/Caffe-website.git"},
+    {id:Date.now(),name:"smart app",desc:"A simple next application  ",catogry:"Business",img:img9,url:"https://github.com/mhamedhassan109/SmartStore.git",netlify:"https://github.com/mhamedhassan109/SmartStore.git"},
 ]
